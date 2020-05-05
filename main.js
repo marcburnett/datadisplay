@@ -299,7 +299,7 @@ function displayAverage(newData, color){
     }
 
     for(let i=0; i<displayArray.length; i++){
-        totalAllOwners += displayArray[i].age
+        totalAllOwners += displayArray[i].owners
     }
 
     let averageColorOwners = Number.parseFloat(totalColorOwners/ageArray.length).toFixed(1)
